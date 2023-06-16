@@ -23,7 +23,7 @@ const StatusMessage = ({ winner, gamingBoard }) => {
         </>
       );
     }
-    if (!winner && noMovesLeft) {
+    if (!winner && !noMovesLeft) {
       return (
         <>
           Next player is {''}
